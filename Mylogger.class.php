@@ -11,6 +11,5 @@ class MyLogger
 }
 
 $logger = new MyLogger();
-$antwoord = $logger->log("hello world");
+$antwoord = $logger->log("hello ");
 print_r($antwoord);
-
